@@ -1,0 +1,520 @@
+  * {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+   background: transparent;
+   font-weight: normal;
+   text-decoration: none;
+   outline: none;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   color: black;
+
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+del {
+   text-decoration: line-through;
+}
+
+body {
+   font-size: 16px;
+   color: var(-black);
+   min-width: 320px;
+   font-weight: 500;
+   overflow-x: hidden;
+}
+
+input,textarea,select {
+   font-weight: 500;
+}
+ 
+ a {
+   color: var(black);
+} 
+
+a:hover {
+   color: var(black);
+}
+
+ .thumb {
+   display: block;
+} 
+
+.thumb img {
+   display: block;
+   width: 100%;
+}
+
+p {
+   line-height: 1.5em;
+   font-size: 15px;
+   font-family:Arial, Helvetica, sans-serif ;
+   font-weight: 500;
+   color: var(black);
+}
+
+.hidden {
+   display: none;
+}
+
+br.clear {
+   clear: both;
+   line-height: 0;
+}
+
+.wrapper {
+   width: 80%;
+   margin: 0 auto;
+   max-width: 1257px;
+}
+
+.flex-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+#section {
+   position: relative;
+   overflow-x: hidden;
+}
+#section video {
+   width: 100%;
+   display: block;
+}
+#section .vd {
+   width: 100%;
+   height: fit-content; 
+}
+section #navbar {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   transition: width 0.6s ease, background-color 0.6s ease;
+   position: fixed;
+   z-index: 100;
+}
+section #navbar:hover {
+   width: 100%;
+   background-color: white;
+   /* height: 20%; */
+}
+section #navbar .flex .wrapper .completnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  color: #fff;
+}
+section #navbar .flex .wrapper .completnav{
+  color: black;
+}
+section #navbar .flex .wrapper .completnav .left ul {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+section #navbar .flex .wrapper .completnav .left {
+   display: flex;
+}
+section #navbar .flex .wrapper .completnav .left button {
+   color: inherit;
+   padding-right: 11px;
+   font-size: 15px;
+   cursor: pointer;
+   /* margin-left: -9%; */
+}
+section #navbar .flex .wrapper .completnav .left ul li i {
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  color: inherit;
+ 
+}
+section #navbar .flex .wrapper .completnav .left ul li a {
+  color: inherit;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+section #navbar .flex .wrapper .completnav .middle h1 {
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-weight: 600;
+  color: inherit; 
+  text-align: center;
+}
+section #navbar .flex .wrapper .completnav .right ul {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+section #navbar .flex .wrapper .completnav .right ul li a {
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+   color: inherit;
+ }
+
+/* header section end
+SpotLight section start */
+
+
+.spotlight {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.spotlight .wrapper .flex {
+  display: flex;
+  justify-content: center;
+}
+
+.spotlight .wrapper .heading {
+  position: absolute;
+  bottom: 25%;
+  display: flex;
+  flex-direction: column;  
+  gap: 10px;
+}
+
+.spotlight .wrapper .heading h1 {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Poppins-semiBold";
+}
+
+.spotlight .wrapper .heading button {
+  padding: 4px;
+  width:40%;
+  font-size: 18px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+
+/* .spotlight section :end
+footer section :start */
+
+
+#footer .wrapper .container {
+  margin-top: 40px;
+}
+
+#footer .wrapper .container .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.347);
+}
+#footer .wrapper .container .top .fit {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .wrapper .container .top .fit i {
+  display: none;
+}
+
+#footer .wrapper .container .top .first {
+  font-size: 13px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#footer .wrapper .container .top .first p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .first ul li {
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .second {
+  font-size: 13px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#footer .wrapper .container .top .second p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+#footer .wrapper .container .top .second ul li {
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .third {
+  font-size: 13px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#footer .wrapper .container .top .third p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .third ul li {
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .fourd {
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+#footer .wrapper .container .top .fourd p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+
+#footer .wrapper .container .top .fourd ul li {
+  margin-bottom: 25px;
+}
+#footer .wrapper .container .center {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+#footer .wrapper .container .middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .wrapper .container .middle .left {
+  display: flex;
+}
+
+#footer .wrapper .container .middle .left .img {
+  width: 20px;
+}
+
+#footer .wrapper .container .middle .left .img a img {
+  width: 100%;
+  display: block;
+}
+
+#footer .wrapper .container .middle .left .country {
+  margin-left: 5px;
+}
+
+#footer .wrapper .container .middle .left .country a {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+#footer .wrapper .container .middle .right ul {
+  display: flex;
+}
+
+#footer .wrapper .container .middle .right ul li {
+  margin-left: 30px;
+}
+
+#footer .wrapper .container .middle .right ul li a {
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#footer .wrapper .container .bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .wrapper .container .bottom .section1 p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(90, 90, 90, 0.655);
+}
+
+#footer .wrapper .container .bottom .section2 p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(90, 90, 90, 0.655);
+}
+
+#footer .wrapper .container .last_tittle {
+  padding: 40px;
+  margin: 25px;
+}
+
+#footer .wrapper .container .last_tittle h3 {
+  font-size: 26px;
+  font-family: "Poppins-bold";
+  font-weight: 600;
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+@media all and (max-width: 1080px){
+  footer .wrapper .container { 
+    margin-right: -325px;
+
+  }
+}
+@media all and (max-width: 1080px){
+  .spotlight .wrapper .heading {
+    margin-right: -26%;
+  }
+}
+@media all and (max-width: 1080px){
+  section #navbar .flex .wrapper .completnav {
+    margin-left: -12%;
+  }
+}
+@media all and (max-width: 980px){
+  .spotlight .wrapper .heading {
+    margin-right: -57%;
+  }
+}
+@media all and (max-width: 980px){
+  #footer .wrapper .container .top {
+    margin-right: -29%;
+  }
+}
+@media all and (max-width: 980px){
+  .spotlight .wrapper .heading {
+    margin-bottom: -24%;
+  }
+}
+@media all and (max-width: 980px){
+  #footer .wrapper .container .last_tittle {
+    margin-right: -28% ;
+  }
+}
+@media all and (max-width: 640px){
+  .spotlight .wrapper .heading {
+    margin-right: -150%;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .first {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .second {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .third {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .fourd {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .first p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .second p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .third p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top .fourd p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .top {
+    margin-right: -79%;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .middle .left .country a {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .middle .right ul li a {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .bottom .section1 p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .bottom .section2 p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .last_tittle h3 {
+    margin-right: -33%;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .bottom {
+    margin-right: -71%;
+  }
+}
+@media all and (max-width: 640px){
+  #footer .wrapper .container .middle .right ul {
+    margin-right: 355px;
+  }
+}
+@media all and (max-width: 540px){
+  .spotlight .wrapper .heading h1 {
+    font-size: 45px;
+  }
+}
+@media all and (max-width: 540px){
+  .spotlight .wrapper .heading button {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 540px){
+  .flex .wrapper .completnav .middle h1 {
+    font-size: 50px;
+    color: #fff;
+  }
+}
+@media all and (max-width: 480px){
+  section #navbar .flex .wrapper .completnav .left ul li a {
+    font-size: 40px;
+  }
+}
+@media all and (max-width:480px){
+  section #navbar .flex .wrapper .completnav .right ul li a {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 480px){
+  * {
+    font-size: 40px;
+  }
+}
