@@ -10,7 +10,7 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" href="image/lv3.png">
   <title>LOUIS VUITTON</title>
   </head>
@@ -26,7 +26,7 @@
             <div class="completnav">
              <div class="left">
               <button id="open">
-                <i class="fa-solid fa-bars" id="click"></i>
+                <i class="fa-solid fa-bars" id="popicon"></i>
               </button>
               <ul>
                 <li>
@@ -43,18 +43,34 @@
             </div>
             <div class="right">
               <ul>
-                <li><a href="#">Call us</a></li>
+                <li><a href="#"></a>Call Us</li>
                 <li><a href="#"></a>Wishlist</li>
                 <li><a href="#"></a>My LV</li>
               </ul>
+            </div>
+           </div>
+           <div class="dropdown">
+            <button class="dropbtn"></button>
+            <div class="dropdown-content">
+              <a href="#">Gifts</a>
+              <a href="#">New</a>
+              <a href="#">Bags</a>
+              <a href="#">Women</a>
+              <a href="#">Men</a>
+              <a href="#">Jewellery</a>
+              <a href="#">Watches</a>
+              <a href="#">Perfumes</a>
+              <a href="#">Art of living</a>
+              <a href="#">Services</a>
+              <a href="#">World of Louis Vuitton</a>
             </div>
            </div>
           </section>
         </nav>
       </header>
 
-      <!-- navbar section end
-spotlight section start -->
+<!-- navbar section end -->
+<!-- spotlight section -->
 
      <div class="spotlight">
       <div class="wrapper">
@@ -71,8 +87,7 @@ spotlight section start -->
     </section>
 
 <!-- spotlight section end
-footer> section start -->
-
+footer section start -->
 
    <footer id="footer">
     <div class="wrapper">
@@ -121,7 +136,7 @@ footer> section start -->
           <div class="fourd">
             <div class="fix">
               <p>CONNECT</p>
-              <!-- <i class="fa-solid fa-plus"></i> -->
+              <i class="fa-solid fa-plus"></i>
             </div>
             <ul>
               <li><a href="#">Sign up for first access to latest collections,<br />
@@ -181,6 +196,18 @@ footer> section start -->
     </div>
   </footer>
 
-  <!-- footer section end  -->
+   <!-- footer section end  -->
+
   </body>
+  <script>
+    document.addEventListener('scroll', () => {
+      const header = document.querySelector('header')
+      
+      if (window.scrollY > 0) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    })
+  </script>
 </html>
