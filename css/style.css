@@ -100,8 +100,8 @@ width: 100%;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
-  max-width: 1351px;
+  height: 16%;
+  max-width: 1351%;
   left: 0px;
   padding: 10px 10px;
   z-index: 100;
@@ -272,7 +272,7 @@ width: 100%;
   box-shadow: 0 2px 0 -1px #000;
 }
 footer { 
-  min-height: 75vh;
+  min-height: 64vh;
   padding: 20px 0;
 }
 footer .wrapper .footer-top { 
@@ -340,7 +340,7 @@ footer .wrapper .footer-bottom> h1 {
 
 @media all and (max-width:1440px) {
   #main .wrapper #spotlight .container header {
-    max-width: 1443px;
+    max-width: 1443%;
   }
 }
 
