@@ -33,9 +33,6 @@ input,textarea,select{
 a{
 	color: #000;
 }
-a:hover{
-    
-}
 img{
     display: block;
     width: 100%;
@@ -62,63 +59,40 @@ img{
        url('../fonts/poppins/poppins-bold-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
 @font-face {
   font-family: 'poppinsitalic';
   src: url('../fonts/poppins/poppins-italic-webfont.woff2') format('woff2'),
        url('../fonts/poppins/poppins-italic-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
 @font-face {
   font-family: 'poppinslight';
   src: url('../fonts/poppins/poppins-light-webfont.woff2') format('woff2'),
        url('../fonts/poppins/poppins-light-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
 @font-face {
   font-family: 'poppinsregular';
   src: url('../fonts/poppins/poppins-regular-webfont.woff2') format('woff2'),
        url('../fonts/poppins/poppins-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 #main { 
   position: relative;
   overflow: hidden;
 }
-
 #main .video { 
 height: 100%;
 display: block;
 }
-
 #main .video video { 
 width: 100%;
-/* height: fit-content; */
 }
-
-#main .wrapper { 
-
-}
-
-#main .wrapper #spotlight { 
-  
-}
-
-#main .wrapper #spotlight .container { 
-
-}
-
 #main .wrapper #spotlight .container header { 
   position: fixed;
   top: 0%;
@@ -136,7 +110,6 @@ width: 100%;
 .container header:hover {
   background-color: #fff;
   width: 100%;
-  
 }
 #main .wrapper #spotlight .container header:hover .middle h1 {
   color: black;
@@ -184,7 +157,6 @@ width: 100%;
   transition: 0.5s;
   padding-top: 60px;
 }
-
 .sidenav a {
   padding: 26px 8px 8px 32px;
   text-decoration: none;
@@ -193,11 +165,9 @@ width: 100%;
   display: block;
   transition: 0.3s;
 }
-
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -215,117 +185,83 @@ width: 100%;
  display: flex;
  gap: 15px;
 }
-
 #main .wrapper #spotlight .container header .left ul { 
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
 }
-
-#main .wrapper #spotlight .container header .left ul li { 
-
-}
-
 #main .wrapper #spotlight .container header .left ul li .fa-solid { 
   color: #fff;
 }
-
 #main .wrapper #spotlight .container header .left ul li a { 
   color: #fff;
 }
-
-#main .wrapper #spotlight .container header .middle { 
-
-}
-
 #main .wrapper #spotlight .container header .middle h1 { 
   color: #fff;
   font-size: 3rem;
   font-family: 'poppinsbold';
 }
-
-#main .wrapper #spotlight .container header .right { 
-
-}
-
 #main .wrapper #spotlight .container header .right ul { 
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
 }
-
-#main .wrapper #spotlight .container header .right ul li { 
-
-}
-
 #main .wrapper #spotlight .container header .right ul li a { 
   color: #fff;
 }
 
-#main .wrapper #spotlight .container .content {
-  position: absolute;
-  top: 56%;
-  left: 27%;
+#main .wrapper #spotlight .container .flex { 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-} 
-#main .wrapper #spotlight .container .content h1 { 
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'poppinslight';
+  justify-content: center;
 }
-
-#main .wrapper #spotlight .container .content button { 
-    border: 1px solid #fff;
-    padding: 10px 140px;
-    border-radius: 25px;
+#main .wrapper #spotlight .container .flex .content { 
+  position: absolute;
+  bottom: 25%;
+  display: flex;
+  flex-direction: column;  
+  gap: 10px;
 }
-
-#main .wrapper #spotlight .container .content button a { 
+#main .wrapper #spotlight .container .flex .content h1 { 
+  font-size: 35px;
+  color: #fff;
+  font-family: "Poppins-semiBold";
+}
+#main .wrapper #spotlight .container .flex .content button { 
+  padding: 4px;
+  width:40%;
+  font-size: 18px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-family: "Poppins-Light";
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+}
+#main .wrapper #spotlight .container .flex .content button a { 
   color: #fff;
   text-decoration: none;
   font-size: 15px;
 }
-
 
 #about { 
   height: 75vh;
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
 }
-
-#about .wrapper { 
-
-}
-
-#about .wrapper { 
-
-}
-
 #about .wrapper .links { 
   display: flex;
   justify-content: space-between;
 }
-
-#about .wrapper .links ul .link-boxes { 
-  
-}
-
 #about .wrapper .links .link-boxes .link-name { 
     font-size: 13px;
     letter-spacing: .0625rem;
     line-height: 3rem;
 }
-
 #about .wrapper .links .link-boxes li { 
   margin: 6px 0;
-  
 }
-
 #about .wrapper .links .link-boxes li a { 
   font-size: 11px;
   letter-spacing: .025rem;
@@ -339,76 +275,49 @@ footer {
   min-height: 75vh;
   padding: 20px 0;
 }
-
-footer .wrapper { 
-
-}
-
 footer .wrapper .footer-top { 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 footer .wrapper .footer-top .footer-top-left { 
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 footer .wrapper .footer-top .footer-top-left img { 
   width: 16px;
   height: 15px;
   margin-right: 10px;
 }
-
 footer .wrapper .footer-top .footer-top-left a { 
   font-size: 13px;
   letter-spacing: .0625rem;
   line-height: 3rem;
   font-weight: 500;
 }
-
-footer .wrapper .footer-top .footer-top-left a .underline { 
-
-}
-
-footer .wrapper .footer-top .footer-top-right { 
-
-}
-
 footer .wrapper .footer-top .footer-top-right .one { 
   margin-right: 15px;
 }
-
 footer .wrapper .footer-top .footer-top-right span a { 
   font-size: 13px;
   letter-spacing: .0625rem;
   line-height: 3rem;
   font-weight: 500;
 }
-
 footer .wrapper .footer-middle { 
-  padding: 80px 0 0 0;
+  padding: 80px 0;
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
   width: calc(145% / 2 - 10px);
 }
-
-
-footer .wrapper .footer-middle .contact { 
- 
-
-}
-
 footer .wrapper .footer-middle .contact p { 
   font-size: .75rem;
   letter-spacing: .0625rem;
   line-height: 25px;
   color: #a1a1a1;
 }
-
 footer .wrapper .footer-middle .contact p b { 
   font-size: .75rem;
   font-weight: 700;
@@ -416,16 +325,10 @@ footer .wrapper .footer-middle .contact p b {
   letter-spacing: .0625rem;
   line-height: 4;
 }
-
-footer .wrapper .footer-middle .contact p br { 
-
-}
-
 footer .wrapper .footer-bottom> { 
   padding: 40px;
   margin: 25px;
 }
-
 footer .wrapper .footer-bottom> h1 { 
   text-align: center;
   font-size: 32px;
@@ -433,187 +336,186 @@ footer .wrapper .footer-bottom> h1 {
   font-family: 'poppinsbold';
 }
 
-
 /* main */
 
 @media all and (max-width:1440px) {
   #main .wrapper #spotlight .container header {
-    max-width: 1438px;
-  }
-}
-
-@media all and (max-width: 1280px) {
-  #main .wrapper #spotlight .container .content {
-    left: 22%;
-  }
-  #main .wrapper #spotlight .container header {
-    padding: 19px;
-  }
-  #about {
-    padding: 20px 10px;
-  }
-  footer .wrapper .footer-middle {
-    padding: 40px 10px;
-  }
-  footer .wrapper .footer-top {
-    padding: 2px 7px;
-  }
-}
-
-@media all and (max-width: 1080px) {
-  #main .wrapper #spotlight .container .content {
-    left: 18%;
+    max-width: 1443px;
   }
 }
 
 @media all and (max-width: 980px) {
+  #main .wrapper #spotlight .container header:hover .middle h1 {
+    font-size: 38px;
+  }
   #main .wrapper #spotlight .container header .middle h1 {
-    font-size: 30px;
-  }
-  #main .wrapper #spotlight .container .content h1 {
-    font-size: 28px;
-  }
-  #main .wrapper #spotlight .container .content button {
-    padding: 10px 49px;
+    font-size: 38px;
   }
 }
 
-@media all and (max-width: 769px) {
-  #main .wrapper #spotlight .container header .right ul {
+@media all and (max-width: 768px) {
+  #main .wrapper #spotlight .container header.scrolled .right ul li a {
     display: none;
   }
-  #main .wrapper #spotlight .container header .left ul li a {
+  #main .wrapper #spotlight .container header .right ul li a {
     display: none;
   }
-  .left span {
-    display: none;
+  #main .wrapper #spotlight .container header .left {
+    flex-direction: column;
   }
-  #main .wrapper #spotlight .container header .middle h1 {
-    font-size: 2rem;
-  }
-  #main .wrapper #spotlight .container header {
-    height: 56px;
-  }
-  #main .wrapper #spotlight .container .content h1 {
-    font-size: 25px;
-  }
-  #main .wrapper #spotlight .container .content button {
-    padding: 10px 48px;
-  }
-  #main .wrapper #spotlight .container .content {
-    top: 13rem;
-    left: 18%;
-  } 
-  #main .wrapper #spotlight .container .content h1 {
-   font-size: 24px;
-  }
-  #main .wrapper #spotlight .container .content {
-    top: 13rem;     
-    align-items: center;
-  }
-}
-@media all and (max-width: 640px) {
- #main .wrapper #spotlight .container .content h1 {
-   font-size: 21px;
-  }
-}
-@media all and (max-width: 540px) {
-  #main .wrapper #spotlight .container .content h1 {
-    font-size: 19px;
-  }
-  #main .wrapper #spotlight .container .content {
-    top: 11rem;
-    left: 13%;
-  }
-  #main .wrapper #spotlight .container .content button {
-    padding: 4px 43px; 
-  }
-}
-@media all and (max-width: 480px) {
-  #main .wrapper #spotlight .container header .left ul {
-    gap: 8px;
-  }
-  #main .wrapper #spotlight .container .content {
-    top: 9rem;
-    left: 22%;
-    gap: 0;
-  }
-  #main .wrapper #spotlight .container .content h1 {
+  #main .wrapper #spotlight .container header.scrolled span {
     font-size: 13px;
   }
-  #main .wrapper #spotlight .container .content button a {
-    font-size: 12px;
+  .left span {
+    font-size: 13px;
   }
-  #main .wrapper #spotlight .container .content button {
-    padding: 4px 24p 
+  #main .wrapper #spotlight .container header:hover .left ul li a {
+    font-size: 13px;
+  }
+  #main .wrapper #spotlight .container header .left ul li a {
+    font-size: 13px;
+  }
+  #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
+    font-size: 13px;
+  }
+  #main .wrapper #spotlight .container header .left ul li .fa-solid {
+    font-size: 13px;
+  }
+  #main .wrapper #spotlight .container .flex .content h1 {
+    font-size: 26px; 
+  }
+}
+
+@media all and (max-width: 640px) {
+  #main .wrapper #spotlight .container .flex .content h1 {
+    font-size: 21px;
+  }
+  #main .wrapper #spotlight .container .flex .content {
+    bottom: 10%;
+  }
+}
+
+@media all and (max-width: 540px) { 
+  #main .wrapper #spotlight .container header {
+  height: 77px;
+ }
+ #main .wrapper #spotlight .container header .left {
+  gap: 5px;
+ }
+ #main .wrapper #spotlight .container .flex .content {
+  bottom: 10%;
+ }
+}
+
+@media all and (max-width: 480px) {
+  #main .wrapper #spotlight .container header:hover .middle h1 {
+    font-size: 27px;
   }
   #main .wrapper #spotlight .container header .middle h1 {
-    font-size: 23px;
+    font-size: 27px;
+  }
+  #main .wrapper #spotlight .container header:hover span {
+    font-size: 11px;
+  }
+  .left span {
+    font-size: 11px;
+  }
+  #main .wrapper #spotlight .container header:hover .left ul li a {
+    font-size: 11px;
+  }
+  #main .wrapper #spotlight .container header .left ul li a {
+    font-size: 11px;
+  }
+  #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
+    font-size: 11px;
+  }
+  #main .wrapper #spotlight .container header .left ul li .fa-solid {
+    font-size: 11px;
+  }
+  #main .wrapper #spotlight .container .flex .content button a {
+    font-size: 13px;
+  }
+  #main .wrapper #spotlight .container .flex .content h1 {
+    font-size: 18px;
+  }
+  #main .wrapper #spotlight .container .flex .content {
+    bottom: 9%;
   }
 }
 
 /* footer */
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1280px) {
   #about {
-    height: 67vh;
-    padding: 10px 10px;
-  }
-  footer .wrapper .footer-middle {
-    padding: 40px 10px;
-    gap: 3rem;
-    width: fit-content;
+    padding: 20px 10px;
+    height: 17%;
   }
   footer .wrapper .footer-top {
     padding: 0px 10px;
   }
+  footer .wrapper .footer-middle {
+    padding: 40px 10px;
+  }
 }
+
+@media all and (max-width: 1080px) {
+  footer .wrapper .footer-middle {
+    gap: 10rem;
+    width: 84%; 
+  }
+}
+
 @media all and (max-width: 980px) {
-  #about {
-    height: 70vh;
-    padding: 2px 10px; 
+  footer .wrapper .footer-middle {
+    width: 98%;
+    gap: 10rem;
   }
-}
-@media all and (max-width: 768px) {
-  #about {
-    height: 83vh;
-  }
-  #about .wrapper .links {
-    gap: 47px;
-  }
-}
-@media all and (max-width: 640px) {
   #about .wrapper .links .link-boxes li a {
     display: none;
   }
-  #about {
-    height: 13vh; 
+  footer .wrapper .footer-middle {
+    padding: 15px 10px;
   }
-  footer {
-    padding: 9px 0;
-  }
+}
+
+@media all and (max-width: 768px) {
   footer .wrapper .footer-middle {
     flex-direction: column;
-  }
-}
-@media all and (max-width: 540px) {
-  #about .wrapper .links .link-boxes .link-name {
-    font-size: 12px;
+    gap: 10px;
+    padding: 10px 10px
   }
   #about {
-    height: 14vh; 
-  }
-  footer .wrapper .footer-middle {
-    gap: 10px;
-    padding: 6px 10px
+    padding: 20px 34px 
   }
 }
+
+@media all and (max-width: 640px) {
+  footer .wrapper .footer-middle {
+    padding: 10px 18px; 
+  }
+  footer .wrapper .footer-top {
+    padding: 0px 13px; 
+  }
+}
+
+@media all and (max-width: 540px) {
+  #about {
+    padding: 18px 12px;
+  }
+  footer .wrapper .footer-middle {
+    padding: 10px 18px;
+  }
+
+}
+
 @media all and (max-width: 480px) {
   #about .wrapper .links {
-    gap: 22px;
-    width: max-content;
+    flex-direction: column;
   }
   #about .wrapper .links .link-boxes .link-name {
-    font-size: 11px; 
+    text-align: center;
+  }
+  footer .wrapper .footer-middle {
+    padding: 20px 18px 
   }
 }
