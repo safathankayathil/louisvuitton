@@ -125,6 +125,9 @@ width: 100%;
 #main .wrapper #spotlight .container header:hover span {
   color: black;
 }
+#main .wrapper #spotlight .container header:hover .left ul div .fa-solid {
+  color: black;
+}
 .container header.scrolled {
   background-color: white;
   opacity: 0.98;
@@ -374,6 +377,7 @@ footer .wrapper .footer-bottom> h1 {
   ul div .fa-solid {
     display: block;
     color: white;
+    font-size: 13px;
   }
   #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
     font-size: 13px;
@@ -443,6 +447,9 @@ footer .wrapper .footer-bottom> h1 {
   }
   #main .wrapper #spotlight .container .flex .content {
     bottom: 9%;
+  }
+  ul div .fa-solid {
+    font-size: 11px;
   }
 }
 
