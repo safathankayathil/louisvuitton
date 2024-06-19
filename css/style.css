@@ -141,6 +141,9 @@ width: 100%;
 #main .wrapper #spotlight .container header.scrolled .left ul li .fa-solid {
   color: black;
 }
+#main .wrapper #spotlight .container header.scrolled .left ul div .fa-solid {
+  color: black;
+}
 #main .wrapper #spotlight .container header.scrolled span {
   color: black;
 }
@@ -195,6 +198,9 @@ width: 100%;
 }
 #main .wrapper #spotlight .container header .left ul li a { 
   color: #fff;
+}
+ul div .fa-solid { 
+  display: none;
 }
 #main .wrapper #spotlight .container header .middle h1 { 
   color: #fff;
@@ -360,13 +366,14 @@ footer .wrapper .footer-bottom> h1 {
     font-size: 13px;
   }
   .left span {
-    font-size: 13px;
-  }
-  #main .wrapper #spotlight .container header:hover .left ul li a {
-    font-size: 13px;
+    display: none;
   }
   #main .wrapper #spotlight .container header .left ul li a {
-    font-size: 13px;
+    display: none;
+  }
+  ul div .fa-solid {
+    display: block;
+    color: white;
   }
   #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
     font-size: 13px;
@@ -376,6 +383,9 @@ footer .wrapper .footer-bottom> h1 {
   }
   #main .wrapper #spotlight .container .flex .content h1 {
     font-size: 26px; 
+  }
+  #main .wrapper #spotlight .container header {
+    padding: 10px 20px;
   }
 }
 
@@ -440,14 +450,14 @@ footer .wrapper .footer-bottom> h1 {
 
 @media all and (max-width: 1280px) {
   #about {
-    padding: 20px 10px;
+    padding: 20px 20px;
     height: 17%;
   }
   footer .wrapper .footer-top {
-    padding: 0px 10px;
+    padding: 0px 19px;
   }
   footer .wrapper .footer-middle {
-    padding: 40px 10px;
+    padding: 40px 20px;
   }
 }
 
@@ -462,12 +472,10 @@ footer .wrapper .footer-bottom> h1 {
   footer .wrapper .footer-middle {
     width: 98%;
     gap: 10rem;
+    padding: 15px 20px;
   }
   #about .wrapper .links .link-boxes li a {
     display: none;
-  }
-  footer .wrapper .footer-middle {
-    padding: 15px 10px;
   }
 }
 
@@ -475,7 +483,7 @@ footer .wrapper .footer-bottom> h1 {
   footer .wrapper .footer-middle {
     flex-direction: column;
     gap: 10px;
-    padding: 10px 10px
+    padding: 10px 25px
   }
   #about {
     padding: 20px 34px 
@@ -484,19 +492,19 @@ footer .wrapper .footer-bottom> h1 {
 
 @media all and (max-width: 640px) {
   footer .wrapper .footer-middle {
-    padding: 10px 18px; 
+    padding: 10px 40px; 
   }
   footer .wrapper .footer-top {
-    padding: 0px 13px; 
+    padding: 0px 24px; 
   }
 }
 
 @media all and (max-width: 540px) {
   #about {
-    padding: 18px 12px;
+    padding: 18px 16px;
   }
   footer .wrapper .footer-middle {
-    padding: 10px 18px;
+    padding: 10px 23px;
   }
 
 }
@@ -509,6 +517,6 @@ footer .wrapper .footer-bottom> h1 {
     text-align: center;
   }
   footer .wrapper .footer-middle {
-    padding: 20px 18px 
+    padding: 20px 27px 
   }
 }
