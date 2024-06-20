@@ -188,7 +188,7 @@ width: 100%;
 
 #main .wrapper #spotlight .container header .left { 
  display: flex;
- gap: 15px;
+ gap: 5px;
 }
 #main .wrapper #spotlight .container header .left ul { 
   display: flex;
@@ -196,14 +196,8 @@ width: 100%;
   justify-content: space-between;
   gap: 15px;
 }
-#main .wrapper #spotlight .container header .left ul li .fa-solid { 
-  color: #fff;
-}
 #main .wrapper #spotlight .container header .left ul li a { 
   color: #fff;
-}
-ul div .fa-solid { 
-  display: none;
 }
 #main .wrapper #spotlight .container header .middle h1 { 
   color: #fff;
@@ -258,6 +252,9 @@ ul div .fa-solid {
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
 }
+#about .wrapper { 
+ padding: 20px 20px;
+}
 #about .wrapper .links { 
   display: flex;
   justify-content: space-between;
@@ -279,9 +276,13 @@ ul div .fa-solid {
 .underline{
   box-shadow: 0 2px 0 -1px #000;
 }
+
 footer { 
   min-height: 64vh;
   padding: 20px 0;
+}
+footer .wrapper { 
+ padding: 20px 20px;
 }
 footer .wrapper .footer-top { 
   display: flex;
@@ -293,7 +294,7 @@ footer .wrapper .footer-top .footer-top-left {
   align-items: center;
   justify-content: space-between;
 }
-footer .wrapper .footer-top .footer-top-left a img { 
+footer .wrapper .footer-top .footer-top-left span img { 
   width: 16px;
   height: 15px;
   margin-right: 10px;
@@ -359,25 +360,17 @@ footer .wrapper .footer-bottom> h1 {
   #main .wrapper #spotlight .container header.scrolled .right ul li a {
     display: none;
   }
-  #main .wrapper #spotlight .container header .right ul li a {
+   #main .wrapper #spotlight .container header .right ul li a {
     display: none;
-  }
-  #main .wrapper #spotlight .container header .left {
-    flex-direction: column;
   }
   #main .wrapper #spotlight .container header.scrolled span {
     font-size: 13px;
   }
-  .left span {
+  #main .wrapper #spotlight .container header .left ul li .search {
     display: none;
   }
-  #main .wrapper #spotlight .container header .left ul li a {
+  #main .wrapper #spotlight .container header .left ul li .Menu {
     display: none;
-  }
-  ul div .fa-solid {
-    display: block;
-    color: white;
-    font-size: 13px;
   }
   #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
     font-size: 13px;
@@ -391,7 +384,7 @@ footer .wrapper .footer-bottom> h1 {
   #main .wrapper #spotlight .container header {
     padding: 10px 20px;
   }
-}
+} 
 
 @media all and (max-width: 640px) {
   #main .wrapper #spotlight .container .flex .content h1 {
