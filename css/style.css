@@ -188,6 +188,7 @@ width: 100%;
 #main .wrapper #spotlight .container header .left { 
  display: flex;
  gap: 5px;
+ align-items: center;
 }
 #main .wrapper #spotlight .container header .left ul { 
   display: flex;
@@ -367,7 +368,7 @@ footer .wrapper .footer-bottom> h1 {
     display: none;
   }
   #main .wrapper #spotlight .container header.scrolled span {
-    font-size: 13px;
+    font-size: 20px;
   }
   #main .wrapper #spotlight .container header .left ul li .search {
     display: none;
@@ -376,7 +377,7 @@ footer .wrapper .footer-bottom> h1 {
     display: none;
   }
   #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
-    font-size: 13px;
+    font-size: 15px;
   }
   #main .wrapper #spotlight .container header .left ul li .fa-solid {
     font-size: 13px;
@@ -385,7 +386,7 @@ footer .wrapper .footer-bottom> h1 {
     font-size: 26px; 
   }
   #main .wrapper #spotlight .container header {
-    padding: 10px 20px;
+    padding: 10px 20px; 
   }
 } 
 
@@ -419,24 +420,9 @@ footer .wrapper .footer-bottom> h1 {
   }
   #main .wrapper #spotlight .container header .middle h1 {
     font-size: 27px;
-  }
-  #main .wrapper #spotlight .container header:hover span {
-    font-size: 11px;
-  }
-  .left span {
-    font-size: 11px;
-  }
-  #main .wrapper #spotlight .container header:hover .left ul li a {
-    font-size: 11px;
-  }
-  #main .wrapper #spotlight .container header .left ul li a {
-    font-size: 11px;
-  }
+  } 
   #main .wrapper #spotlight .container header:hover .left ul li .fa-solid {
-    font-size: 11px;
-  }
-  #main .wrapper #spotlight .container header .left ul li .fa-solid {
-    font-size: 11px;
+    font-size: 13px;
   }
   #main .wrapper #spotlight .container .flex .content button a {
     font-size: 13px;
@@ -447,8 +433,11 @@ footer .wrapper .footer-bottom> h1 {
   #main .wrapper #spotlight .container .flex .content {
     bottom: 9%;
   }
-  ul div .fa-solid {
-    font-size: 11px;
+  #main .wrapper #spotlight .container header span {
+    font-size: 18px;
+  }
+  #main .wrapper #spotlight .container header .left ul li .fa-solid {
+    font-size: 15px;
   }
 }
 
